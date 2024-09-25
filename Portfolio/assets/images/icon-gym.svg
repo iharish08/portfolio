@@ -1,0 +1,28 @@
+<svg
+  version="1.1"
+  id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 400 200"
+  xml:space="preserve"
+  width="400px"
+  height="200px"
+>
+  <style>
+    .heavy { font: bold 30px sans-serif; fill: #e63946; }
+    .light { font: 20px sans-serif; fill: #f1faee; }
+    .dumbbell { fill: #1d3557; }
+  </style>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#457b9d" />
+  
+  <!-- Dumbbell Icon -->
+  <rect x="50" y="90" width="300" height="20" class="dumbbell" />
+  <circle cx="50" cy="100" r="20" class="dumbbell" />
+  <circle cx="350" cy="100" r="20" class="dumbbell" />
+
+  <!-- Gym Name -->
+  <text x="50%" y="40%" text-anchor="middle" class="heavy">Fitness Hub</text>
+  <text x="50%" y="70%" text-anchor="middle" class="light">Strength | Health | Community</text>
+</svg>
